@@ -22,7 +22,13 @@ function doWhileLoop(array){
   i = i + 1;
   }
 
-  do{
-    co
+  do {
+		console.log('array.length = ' + array.length + ' and i = ' + i);
+		array = array.slice(1);
+		incrementVariable();
+	} while (array.length > 0 && i < 5);
+
+	return array;
+}
   } 
 }
