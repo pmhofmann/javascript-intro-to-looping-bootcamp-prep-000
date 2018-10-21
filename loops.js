@@ -22,5 +22,7 @@ function doWhileLoop(array){
   i = i + 1;
   }
 
-do 
+  do{
+    
+  } 
 }
